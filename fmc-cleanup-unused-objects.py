@@ -12,9 +12,7 @@
 # - Python: 3.6.8
 # - Target platform:  FMC 7.0.4
 # - Dependencies: none
-# - Limitations: system created objects cannot be deteted.  operation not permited warnings will display when the script encounters these objects
-#               in production run it was discovered groups might contain groups that containd groups, etc.  the child groups aren't marked unused
-#               until the parent group is removed so multiple runs are required until unused groups is 0
+# - Limitations: system created objects cannot be deteted and will be skipped
 # - Comments: there is a lot of repeat code in main() that probably could have been functionalized
 
 
