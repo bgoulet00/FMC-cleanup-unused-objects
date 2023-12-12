@@ -15,4 +15,5 @@ Developed and tested with the following environment
 - Python: 3.6.8
 - Target platform:  FMC 7.0.4
 - Dependencies: none
+- Limitations: system created objects cannot be deteted and will be skipped
 - Comments: there is a lot of repeat code in main() that probably could have been functionalized
